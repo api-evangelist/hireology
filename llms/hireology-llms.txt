@@ -1,0 +1,25 @@
+# Hireology
+
+> Hireology is a purpose-built applicant tracking system (ATS) and hiring platform for multi-location, high-volume operators. It covers candidate sourcing, engagement, screening, evaluation, hiring decisions, onboarding handoff, and hiring analytics, with an integration ecosystem spanning payroll, HRIS, background checks, and job boards. Hireology does not publish a public developer API portal or OpenAPI specification; integrations are delivered through named partner connectors.
+
+## Company
+- [Website](https://hireology.com/): Product overview and industry solutions.
+- [Blog](https://hireology.com/blog/): Hiring, retention, and workforce content.
+- [Pricing / Packages](https://hireology.com/packages/): Plan and package information.
+- [Careers](https://hireology.com/careers/): Hireology open roles.
+
+## Product
+- [Sign In](https://app.hireology.com/): Customer application login.
+- [Request a Demo](https://hireology.com/request-demo/): Sales / getting-started path.
+- [Customer Hub](https://hireology.com/customer-hub/): Customer resources and support.
+- [Integrations](https://hireology.com/integrations/): Partner connectors (ADP, Indeed, UKG, BambooHR, CDK, Dealertrack, Accurate, and more).
+
+## Trust & Legal
+- [Trust & Security](https://hireology.com/trust-security/): Security posture, SOC 2 Type II, AI fairness assurance.
+- [Trust Center](https://trust.hireology.com/): Security reports, compliance docs, system status.
+- [Terms of Use](https://hireology.com/terms/)
+- [Subscription Services Terms](https://hireology.com/subscription-services-terms/)
+- [Privacy Policy](https://hireology.com/privacy-policy/)
+
+## Packages
+- [@hireology/molecules (npm)](https://www.npmjs.com/package/@hireology/molecules): Hireology's React design-system component library (not an API client SDK).

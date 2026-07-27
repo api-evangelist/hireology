@@ -1,0 +1,37 @@
+generated: '2026-07-19'
+method: searched
+source: live probes of /.well-known/ on hireology.com and developers.hireology.com
+host: https://hireology.com
+notes: >-
+  No machine-readable discovery documents are published. On hireology.com every
+  probed path returns HTTP 404. On developers.hireology.com every path returns
+  HTTP 200 but serves the marketing homepage HTML (soft-404 catch-all), so none
+  are treated as real documents. developers.hireology.com itself 308-redirects to
+  the marketing site — there is no public developer portal or API discovery surface.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+developers_host_probes:
+- path: /.well-known/security.txt
+  status: 200
+  soft_404: true
+- path: /.well-known/openid-configuration
+  status: 200
+  soft_404: true
+- path: /.well-known/oauth-authorization-server
+  status: 200
+  soft_404: true
+- path: /.well-known/api-catalog
+  status: 200
+  soft_404: true
+- path: /.well-known/ai-plugin.json
+  status: 200
+  soft_404: true

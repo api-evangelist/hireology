@@ -1,0 +1,23 @@
+generated: '2026-07-19'
+method: searched
+source: >-
+  npm registry search (registry.npmjs.org). No client SDK for a Hireology API
+  exists on npm, PyPI, RubyGems, or Packagist; PyPI/RubyGems return no first-party
+  package. The only first-party published package is the internal React design-
+  system component library under the @hireology npm scope.
+packages:
+- language: javascript
+  registry: npm
+  name: "@hireology/molecules"
+  url: https://www.npmjs.com/package/@hireology/molecules
+  install: npm install @hireology/molecules
+  version: 3.0.1
+  license: MIT
+  repository: https://github.com/HireologyCorp/molecules
+  description: "Hireology's React component library (internal design system, not an API client SDK)."
+  kind: ui-components
+  official: true
+notes: >-
+  Not an API client SDK — Hireology publishes no public REST/GraphQL API client
+  library. Captured for completeness; no type: SDKs pointer is emitted because
+  this is a UI component library, not an API client.

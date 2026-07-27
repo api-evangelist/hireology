@@ -1,0 +1,18 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.npmjs.com/package/@hireology/molecules
+notes: >-
+  Hireology publishes one first-party client-side UI component library. These are
+  internal design-system building blocks (React components), not embeddable
+  integration widgets or a public API console.
+families:
+- family: design-system
+  name: molecules
+  description: "Hireology's React component library (design system)."
+  loader:
+    registry: npm
+    package: "@hireology/molecules"
+    install: npm install @hireology/molecules
+    version: 3.0.1
+  repository: https://github.com/HireologyCorp/molecules
+  official: true

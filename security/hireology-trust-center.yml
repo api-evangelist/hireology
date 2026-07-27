@@ -1,0 +1,23 @@
+generated: '2026-07-19'
+method: searched
+source: https://hireology.com/trust-security/
+probe: false
+url: https://trust.hireology.com/
+certifications:
+- SOC 2 Type II
+compliance_programs:
+- name: SOC 2 Type II
+  detail: Annual, independently verified SOC 2 Type 2 audit of security controls.
+- name: AI fairness assurance (Warden AI)
+  detail: Continuous independent third-party monitoring of AI hiring features for fairness, transparency, and compliance; assessment reports published via the Trust Center.
+evidence:
+- source: https://hireology.com/trust-security/
+  keywords: [soc 2 type 2, annual audit, trust center, warden ai]
+- source: https://trust.hireology.com/
+  keywords: [trust center]
+notes: >-
+  trust.hireology.com is a live, JS-rendered trust center linked from the public
+  security page as the repository for security reports, compliance documentation,
+  AI assurance information, and system status. SOC 2 Type II is the only cert
+  named in plain text on the public security page; the Trust Center may host more
+  behind its rendered UI.
