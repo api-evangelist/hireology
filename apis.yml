@@ -51,7 +51,7 @@ modified: '2026-07-19'
 tags:
 - Company
 - Ai Apps
-- ATS
+- Applicant Tracking
 - Recruiting
 - Hiring
 - Human Resources
@@ -71,6 +71,7 @@ tags_raw:
 - Automotive
 - Healthcare
 - Hospitality
+- ATS
 apis: []
 maintainers:
 - FN: Kin Lane
